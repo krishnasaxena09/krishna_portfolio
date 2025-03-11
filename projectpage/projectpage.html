@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <link rel="stylesheet" href="projects.css"> <!-- Linking CSS -->
+    <script src="project.js"></script>
+</head>
+<body>
+    <div class="stars"></div> <!-- Star Background -->
+    
+    <!-- <div class="projects-container">
+        <div class="project-box">
+            <h2>Frontend Projects</h2>
+            <p>Check out my frontend projects using HTML, CSS, JavaScript, and React.js.</p>
+            <a href="#" class="project-btn">View More</a>
+        </div>
+        <div class="project-box">
+            <h2>Bootstrap Projects</h2>
+            <p>Explore my Bootstrap projects, including responsive designs and UI components.</p>
+            <a href="#" class="project-btn">View More</a>
+        </div>
+        <div class="project-box">
+            <h2>JavaScript Projects</h2>
+            <p>See my JavaScript projects, including dynamic web apps and interactive components.</p>
+            <a href="#" class="project-btn">View More</a>
+        </div>
+    </div> -->
+
+
+    <div class="projects-container">
+        <div class="project-box">
+            <h2>Frontend Projects</h2>
+            <p>Check out my frontend projects using HTML, CSS, JavaScript, and React.js.</p>
+            <button class="project-btn" onclick="toggleDropdown('frontend')">View More</button>
+            <div class="project-links" id="frontend">
+                <a href="#">Portfolio Website</a>
+                <a href="#">E-commerce Website</a>
+                <a href="#">Landing Page</a>
+            </div>
+        </div>
+    
+        <div class="project-box">
+            <h2>Bootstrap Projects</h2>
+            <p>Explore my Bootstrap projects, including responsive designs and UI components.</p>
+            <button class="project-btn" onclick="toggleDropdown('bootstrap')">View More</button>
+            <div class="project-links" id="bootstrap">
+                <a href="https://krishnasaxena09.github.io/tin_dog_website/">TinDog project</a>
+                <a href="#">Portfolio with Bootstrap</a>
+                <a href="#">Bootstrap Blog</a>
+            </div>
+        </div>
+    
+        <div class="project-box">
+            <h2>JavaScript Projects</h2>
+            <p>See my JavaScript projects, including dynamic web apps and interactive components.</p>
+            <button class="project-btn" onclick="toggleDropdown('javascript')">View More</button>
+            <div class="project-links" id="javascript">
+                <a href="#">To-Do App</a>
+                <a href="#">Weather App</a>
+                <a href="#">Calculator</a>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <script src="projects.js"></script> <!-- Linking JS -->
+</body>
+</html>

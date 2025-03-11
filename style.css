@@ -1,0 +1,299 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+/* body{
+    text-align: center;
+    font-family: "Merriweather", serif;
+    color: #40514e
+} */
+
+/* /Black background */
+body {
+    background-color: #121212;
+    color: #ffffff;
+    /* overflow: hidden;  Prevents scrolling issue */
+    text-align: center;
+    font-family: "Merriweather", serif;
+
+}
+
+/* Stars Container */
+.stars {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: -1;  /* Ensures stars stay in background */
+}
+
+/* Star Effect */
+.star {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background: white;
+    border-radius: 50%;
+    opacity: 0;
+    animation: blink 2s infinite alternate;
+}
+
+/* Blinking animation */
+@keyframes blink {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+
+
+
+.skills-projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 80px 10%;
+    text-align: center;
+}
+
+.skill-card, .project-card {
+    background: #f8f8f8;
+    padding: 30px;
+    width: 45%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skill-card h2, .project-card h2 {
+    color: #11999e;
+    margin-bottom: 15px;
+}
+
+.skill-card p, .project-card p {
+    font-size: 16px;
+    color: #555;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #11999e;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #0f7e7e;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container{
+
+    background-color: #e4f9f5;
+    position: relative;
+    padding: 100px;
+    padding-bottom: 0px;
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+
+
+.main-contant{
+    font-family: "Sacramento", cursive;
+    color: #66bfbf;
+    font-size: 50px;
+}
+.heading-2{
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+    font-size: 35px;
+}
+
+.botom-cloud{
+    position: absolute;
+}
+
+.profile-img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    
+}
+.middel-contant{
+    margin: 100px;
+}
+.great{
+    color: #66bfbf;
+    margin-top: 40px;
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 30px;
+    font-weight: 100;
+}
+.intro{
+    
+    /* width: 30%;
+    margin: auto;
+    line-height: 2; */
+}
+
+hr{
+    border: 5px dotted #66bfbf;
+    border-bottom: none;
+    margin: 100px auto;
+    width: 5%;
+}
+h2{
+    color: #66bfbf;
+    margin-top: 40px;
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 30px;
+    font-weight: 100;
+}
+/* .projects{
+    display: grid;
+    grid-template-columns: 250px 600px; */
+    /* grid-template-rows: 250px 600px; */
+    /* margin: 400px;
+    margin-top: 100px; */
+    /* width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 20px;
+} */
+
+
+.skills-projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 80px 10%;
+    text-align: center;
+}
+
+.skill-card, .project-card {
+    background: #f8f8f8;
+    padding: 30px;
+    width: 45%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skill-card h2, .project-card h2 {
+    color: #11999e;
+    margin-bottom: 15px;
+}
+
+.skill-card p, .project-card p {
+    font-size: 16px;
+    color: #555;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #11999e;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #0f7e7e;
+}
+
+.skill-card:hover, .project-card:hover {
+    background: #e0f2f1;  /* Thoda dark shade effect */
+    transform: translateY(-5px);  /* Thoda lift effect */
+    transition: 0.3s ease-in-out;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Thoda shadow effect */
+}
+
+
+
+
+
+
+
+
+h3{
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+}
+p{
+    line-height: 30px;
+
+}
+
+
+.contect-m{
+    line-height: 30px;
+    width: 40%;
+    margin: 60px auto ;
+    
+}
+.botom-con{
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
+}
+.footer{
+    color: #11999e;
+    padding: 20px;
+    text-decoration: none;
+    
+}
+.cc{
+    padding-top: 20px;
+    color: white;
+}
+
+.mountain {
+    transform: translateY(calc(-50vh + var(--scroll) * 0.2));
+  }
+  
+
+@keyframes mountainMove {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+    100% { transform: translateY(0); }
+  }
+  
+  .mountain {
+    animation: mountainMove 5s infinite ease-in-out;
+  }
+  
